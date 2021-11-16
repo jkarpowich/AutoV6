@@ -2,7 +2,7 @@ from cx_Freeze import setup, Executable
 
 base = None    
 
-executables = [Executable("AutoV6.py", base=base)]
+executables = [Executable("AutoV5.py", base=base)]
 
 packages = ["asyncio", "sys", "auraxium", "tkinter", "colorsys", "pyautogui"]
 options = {
@@ -12,9 +12,9 @@ options = {
 }
 
 setup(
-    name = "Auto V6",
+    name = "Auto V5",
     options = options,
     version = "1.0",
-    description = 'Auto V6',
+    description = 'Auto V5',
     executables = executables
 )
