@@ -1,5 +1,5 @@
-# AutoV6
-auto v6 for planetside2
+# AutoV5
+auto v5 for planetside2
 
 Youll need python v3.7+ i think
 
